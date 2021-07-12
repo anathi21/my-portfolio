@@ -1,0 +1,146 @@
+
+body{
+    background-image: 
+    url("wallp.jpg");background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+nav{
+font-family :cursive ;
+}
+
+.head{
+color:white;
+}
+#nav a{
+ color:white;
+ padding: 5px;
+ text-decoration : none;
+
+}
+h2{
+   font-weight: bolder ;
+   font-family: cursive ;
+   color :white;
+}
+p{
+color:white;
+font-family: cursive;
+}
+p{
+font-weight: bolder;
+}
+h2{
+font-family: cursive;
+}
+.footer{
+   position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    }
+
+.head{
+text-align: center;
+}
+.center img{
+   margin: auto;
+   display: block;
+   border-radius: 600px;
+   text-align: center;
+   
+
+}
+
+.topnav a{
+    float: right;
+    background-color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 80%;
+}
+
+.topnav a:hover{
+    background-color:rgb(200, 255, 0);
+    
+}
+
+.topnav a.active{
+    background-color:none;
+    color:white
+}
+.center{
+    text-align: center;
+    color: white;
+}
+.login-box{
+    width: 500px;
+    background:rgb(200, 255, 0);;
+    color: black;
+    margin: 110px auto;
+    border-radius: 6px;
+    padding: 10px 3px;
+    height: 400px;
+    margin-top: 10%;
+}
+h1{
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    display: block;
+    border: 1px solid #5372f0;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+button{
+    width: 98%;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    background: #5372f0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+}
+p{
+    text-align: center;
+}
+p a{
+    text-decoration: none;
+}
+body{
+    font-family: "poppins",sans-serif;
+}
+.w{
+    margin-bottom: 30%;
+    color: white;
+       
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container img{
+    margin: auto;
+    display: block;
+    border-radius: 700%;
+    margin-bottom: 40%;
+    margin-top: 30%;
+}
